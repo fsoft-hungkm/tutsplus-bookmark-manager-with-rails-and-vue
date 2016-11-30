@@ -1,7 +1,7 @@
 function loadBookmarkVue() {
-  if ($("#new_bookmark").length) {
+  if ($("#bookmark_form").length) {
     new Vue({
-      el: "#new_bookmark",
+      el: "#bookmark_form",
       data: {
         title: null,
         url: null,
